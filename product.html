@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!-- Tailwind CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-200 p-4 flex justify-between items-center shadow-2xl sticky top-0 z-10">
+
+        <!-- Heading -->
+        <h1 class="font-bold text-3xl">GREENDEN</h1>
+
+        <!-- SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <!-- UL Tags -->
+        <ul class="flex gap-10 font-bold text-gray-600 hidden md:flex">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Our Products -->
+    <section class="text-center">
+        <h1 class="font-bold text-4xl text-center p-2 pt-5">Our Products</h1>
+        <input type="text" placeholder="Search for a Product..." class="border border-black p-2 m-3" style="width: 80%;">
+
+        <!-- Images -->
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5 pb-5">
+            <div>
+                <img src="./images/lily-pot.jpg" alt="Lily Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lily Pot</h1>
+                <p>$15</p>
+            </div>
+            <div>
+                <img src="./images/rose-pot.jpg" alt="Rose Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rose Pot</h1>
+                <p>$12</p>
+            </div>
+            <div>
+                <img src="./images/lavender-pot.jpg" alt="Lavender Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lavender Pot</h1>
+                <p>$17</p>
+            </div>
+            <div>
+                <img src="./images/rubber-pot.jpg" alt="Rubber Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rubber Plant</h1>
+                <p>$21</p>
+            </div>
+            <div>
+                <img src="./images/cactus-pot.jpg" alt="Cactus Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Cactus Plant</h1>
+                <p>$23</p>
+            </div>
+            <div>
+                <img src="./images/daisy-pot.jpg" alt="Daisy Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Daisy Plant</h1>
+                <p>$18</p>
+            </div>
+            <div>
+                <img src="./images/dandelion-pot.jpg" alt="Dandelion Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Dandelion Plant</h1>
+                <p>$27</p>
+            </div>
+            <div>
+                <img src="./images/tulip-pot.jpg" alt="Tulip Pot" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Tulip Plant</h1>
+                <p>$25</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="bg-green-200 p-5">
+        <h1 class="font-bold text-3xl p-2">Greenden</h1>
+        <p class="p-2">The Standard chunk of Lorem ipsum used since the 1500s is reproduces below for these interest</p>
+        <p class="p-2">@2021 Greenday.com</p>
+    </div>
+</body>
+
+</html>
